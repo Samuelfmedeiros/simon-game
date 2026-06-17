@@ -1,48 +1,29 @@
-# Simon Game 🎮
+# 🎨 Simon Game
 
-Um jogo clássico de memorização de sequência de cores, implementado como uma aplicação React standalone (via CDN).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&style=flat-square">
+  <img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square">
+  <a href="https://samuelmedeiros.vercel.app/#games"><img src="https://img.shields.io/badge/Jogue_no_Portfólio-06b6d4?style=flat-square"></a>
+</p>
 
-## Sobre o Jogo
+Jogo clássico de memorização de sequência de cores. Repita a sequência e pontue!
 
-O **Simon Game** é um jogo eletrônico clássico lançado nos anos 1970. O objetivo é simples: o jogador deve memorizar e repetir uma sequência de cores que aumenta progressivamente a cada rodada.
-
-### Como Jogar
-
-1. Clique em **▶ Iniciar Jogo** para começar.
-2. Observe atentamente a sequência de cores que o jogo irá mostrar 👀
-3. Repita a sequência clicando nos botões nas mesma ordem 🎯
-4. A cada acerto, um novo passo é adicionado à sequência, tornando-a mais longa.
-5. Se você errar, o jogo acaba e sua pontuação é exibida 💀
-6. Clique em **Tentar Novamente** para começar uma nova partida.
-
-### Cores
-
-| Botão    | Cor       |
-|----------|-----------|
-| Vermelho | `#ef4444` |
-| Verde    | `#22c55e` |
-| Azul     | `#3b82f6` |
-| Amarelo  | `#f59e0b` |
-
-## Como Executar
-
-Basta abrir o arquivo `index.html` em qualquer navegador moderno. O React 18 e o Babel são carregados via CDN, então nenhuma instalação ou build é necessária.
-
-```
-# Clone o repositório
-git clone https://github.com/Samuelfmedeiros/simon-game.git
-
-# Abra o arquivo
-cd simon-game
-open index.html   # ou clique duas vezes no arquivo
-```
+## Como Jogar
+1. Clique em ▶ Iniciar
+2. Observe a sequência 👀
+3. Repita clicando nas cores na mesma ordem 🎯
+4. A cada acerto a sequência aumenta
+5. Errou? Game Over 💀
 
 ## Stack
+- React 18 (CDN) · Babel Standalone · CSS puro
 
-- **React 18** — via CDN (umd)
-- **Babel Standalone** — transpilação JSX no navegador
-- **CSS puro** — tema escuro, sem dependências externas
+## Executar
+```bash
+git clone git@github.com:Samuelfmedeiros/simon-game.git
+cd simon-game
+open index.html
+```
 
 ## Licença
-
-MIT — sinta-se à vontade para usar, modificar e compartilhar.
+MIT
